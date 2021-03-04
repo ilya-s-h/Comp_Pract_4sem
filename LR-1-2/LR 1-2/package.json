@@ -1,0 +1,23 @@
+{
+  "name": "LR-1-2",
+  "version": "1.0.0",
+  "description": "\"LR-1-2\"",
+  "main": "index.js",
+  "author": "Ilya Shumyakin",
+  "license": "MIT",
+  "scripts": {
+    "trans": "babel index.js -o ./src/index.js",
+    "start": "node ./src/index.js",
+    "build": "babel ./src -d ./lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-proposal-pipeline-operator": "^7.12.13",
+    "@babel/preset-env": "^7.12.17",
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
