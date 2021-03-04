@@ -1,9 +1,9 @@
 {
-  "name": "babel-1",
+  "name": "LR-1-2",
   "version": "1.0.0",
   "description": "\"Labour #3. 20.02.2021\"",
   "main": "index.js",
-  "author": "Danila Bukin",
+  "author": "Ilya Shumyakin",
   "license": "MIT",
   "scripts": {
     "trans": "babel index.js -o ./src/index.js",
